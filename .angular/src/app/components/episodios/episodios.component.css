@@ -1,0 +1,7 @@
+.contenedor {
+    max-width: 1000px;
+    text-align: center;
+    margin: 100px auto;
+    border: 1px solid rgb(36, 36, 141);
+    padding: 20px;
+}

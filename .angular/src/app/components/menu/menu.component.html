@@ -1,0 +1,31 @@
+<div class="p-5 text-white text-center banner">
+    <h1>Segundo parcial de Programacion Web</h1>
+    <p>Jorge Arcia</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a [routerLink]="['/episodios']" class="nav-link">Episodios</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/personajes']" class="nav-link">Personajes</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <a class="nav-link">
+                {{usuario}}
+            </a>
+            <a class="nav-link " [routerLink]="[ ''] ">
+                Log out
+            </a>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="mt-5 p-2 bg-dark text-white text-center fixed-bottom ">
+    <p>ISTEA - 2A-1C by: Jorge Arcia</p>
+</div>

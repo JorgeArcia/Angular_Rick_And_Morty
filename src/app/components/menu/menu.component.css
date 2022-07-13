@@ -1,0 +1,13 @@
+.banner {
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+}
+
+.banner h1,
+.banner p {
+    color: rgb(0, 0, 0);
+}
+
+.banner p {
+    font-size: 20px;
+}

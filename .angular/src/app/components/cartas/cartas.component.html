@@ -1,0 +1,28 @@
+<app-menu></app-menu>
+
+<div class="contenedor">
+    <a class="btn btn-primary" routerLink="/personajes">Volver Atras</a>
+    <div class="carta">
+        <div *ngIf="characterReg !== null">
+            <img src="{{ characterReg.image }}" alt="">
+        </div>
+        <div *ngIf="characterReg !== null">
+            <label>Nombre: </label>
+            <div class="form-control">
+                {{ characterReg.name }}
+            </div>
+        </div>
+        <div *ngIf="characterReg !== null">
+            <label>Genero: </label>
+            <div class="form-control">
+                {{ characterReg.gender }}
+            </div>
+        </div>
+        <div *ngIf="characterReg !== null">
+            <label>Especie: </label>
+            <div class="form-control">
+                {{ characterReg.species }}
+            </div>
+        </div>
+    </div>
+</div>

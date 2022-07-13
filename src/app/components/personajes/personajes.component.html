@@ -1,0 +1,16 @@
+<app-menu></app-menu>
+
+<table class="table table-striped contenedor">
+    <thead>
+        <tr>
+            <th scope="col">Personaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let character of characters.results">
+            <td>
+                <a [routerLink]="['/personajes/' , character.id]">{{ character.name }}</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
